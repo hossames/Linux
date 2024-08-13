@@ -1,12 +1,11 @@
 mkdir hossam
 touch hossam/one.txt hossam/two.txt hossam/three.txt hossam/four.txt
-mkdir BAD
+mkdir hossam/BAD
 touch BAD/bad.txt
-mv one.txt ~/Downloads
-cp one.txt copy.txt
-cd ~/hossam
-nano two.txt
-nano three.txt
-mv three.txt hello.txt
-rm four.txt
-rm -r BAD
+mv hossam/one.txt ~/Downloads
+cp hossam/one.txt hossam/copy.txt
+nano hossam/two.txt
+nano hossam/three.txt
+mv hossam/three.txt hossam/hello.txt
+rm hossam/four.txt
+rm -r hossam/BAD
