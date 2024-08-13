@@ -1,7 +1,7 @@
 mkdir hossam
 touch hossam/one.txt hossam/two.txt hossam/three.txt hossam/four.txt
 mkdir hossam/BAD
-touch BAD/bad.txt
+touch hossam/BAD/bad.txt
 mv hossam/one.txt ~/Downloads
 cp hossam/one.txt hossam/copy.txt
 nano hossam/two.txt
