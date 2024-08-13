@@ -1,10 +1,7 @@
 mkdir hossam
-cd hossam
-touch one.txt two.txt three.txt four.txt
+touch hossam/one.txt hossam/two.txt hossam/three.txt hossam/four.txt
 mkdir BAD
-cd BAD
-touch bad.txt
-cd ..
+touch BAD/bad.txt
 mv one.txt ~/Downloads
 cp one.txt copy.txt
 cd ~/hossam
