@@ -3,7 +3,7 @@ touch hossam/one.txt hossam/two.txt hossam/three.txt hossam/four.txt
 mkdir hossam/BAD
 touch hossam/BAD/bad.txt
 mv hossam/one.txt ~/Downloads
-cp hossam/one.txt hossam/copy.txt
+cp ~/Downloads/one.txt ~/Downloads/copy.txt
 nano hossam/two.txt
 nano hossam/three.txt
 mv hossam/three.txt hossam/hello.txt
