@@ -17,3 +17,4 @@ git checkout main
 git merge intro 
 git push -u origin main
 git tag v1 main
+git push --tag
