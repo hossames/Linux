@@ -15,7 +15,7 @@ find ~/project_files/logs -type f
 ln -s ~/project_files/data/data.csv ~/project_files/link_data.csv
 nano ~/project_files/link_data.csv && cat  ~/project_files/data/data.csv
 rm ~/project_files/link_data.csv
-touch ~/project_files/summary.txt && echo "Summary start" >> ~/project_files/summary.txt
+touch ~/project_files/summary.txt && echo "Summary Start" >> ~/project_files/summary.txt
 date >> ~/project_files/summary.txt
 wc -l ~/project_files/summary.txt | tee -a ~/project_files/summary.txt
 wc -w ~/project_files/reports/report1.md
