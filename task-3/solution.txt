@@ -7,7 +7,7 @@ nano ~/project_files/reports/report1.md && nano ~/project_files/logs/system.log 
 cd ~/project_files/logs && tar -cf logs_backup.tar --exclude=logs_backup.tar *
 mv ~/project_files/logs/logs_backup.tar ~/project_files
 tar -xf ~/project_files/logs_backup.tar -C ~/project_files/logs
-find ~ -name "*.md"
+find ~ -name "*.md" -ls
 find ~/project_files -name "*.log"
 find ~/project_files -name file1.pdf
 find ~/project_files -iname "*.pdf"
