@@ -1,7 +1,7 @@
 sudo useradd -m newuser
 sudo groupadd newgroup
 sudo usermod -aG newgroup newuser
-id newuser
+groups newuser
 mkdir task_dir
 cd task_dir && touch sample.txt
 sudo chmod 640 sample.txt
